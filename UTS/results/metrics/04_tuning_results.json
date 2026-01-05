@@ -1,0 +1,193 @@
+{
+    "tuning_info": {
+        "method": "RandomizedSearchCV",
+        "n_iter": 100,
+        "cv_folds": 5,
+        "scoring": "roc_auc",
+        "tuning_time_minutes": 3.9107423226038613,
+        "best_cv_score": 0.8984362973900577
+    },
+    "best_hyperparameters": {
+        "n_estimators": 500,
+        "min_samples_split": 10,
+        "min_samples_leaf": 8,
+        "max_features": "log2",
+        "max_depth": 20,
+        "criterion": "gini",
+        "class_weight": "None",
+        "bootstrap": true
+    },
+    "tuned_model_performance": {
+        "training": {
+            "Accuracy": 0.8706896551724138,
+            "Precision": 0.9044516829533116,
+            "Recall": 0.8861702127659574,
+            "Specificity": 0.8450704225352113,
+            "F1-Score": 0.8952176249328317,
+            "Balanced Accuracy": 0.8656203176505843,
+            "ROC-AUC": 0.9441451902906803,
+            "PR-AUC": 0.9680234372996692,
+            "Cohen Kappa": 0.7264324016566999,
+            "MCC": 0.7266906062762373,
+            "TP": 833.0,
+            "TN": 480.0,
+            "FP": 88.0,
+            "FN": 107.0
+        },
+        "test": {
+            "Accuracy": 0.8620689655172413,
+            "Precision": 0.9030837004405287,
+            "Recall": 0.8723404255319149,
+            "Specificity": 0.8450704225352113,
+            "F1-Score": 0.8874458874458875,
+            "Balanced Accuracy": 0.8587054240335631,
+            "ROC-AUC": 0.9347018279892118,
+            "PR-AUC": 0.9612326877361771,
+            "Cohen Kappa": 0.7095015114693853,
+            "MCC": 0.7102111473324063,
+            "TP": 205.0,
+            "TN": 120.0,
+            "FP": 22.0,
+            "FN": 30.0
+        }
+    },
+    "comparison_with_baseline": {
+        "Accuracy": {
+            "baseline": 0.8647214854111406,
+            "tuned": 0.8620689655172413,
+            "improvement_pct": -0.30674846625767427
+        },
+        "ROC-AUC": {
+            "baseline": 0.9271201678154031,
+            "tuned": 0.9347018279892118,
+            "improvement_pct": 0.8177645613808121
+        },
+        "F1-Score": {
+            "baseline": 0.8898488120950324,
+            "tuned": 0.8874458874458875,
+            "improvement_pct": -0.27003740595973397
+        },
+        "Precision": {
+            "baseline": 0.9035087719298246,
+            "tuned": 0.9030837004405287,
+            "improvement_pct": -0.047046747358967696
+        },
+        "Recall": {
+            "baseline": 0.8765957446808511,
+            "tuned": 0.8723404255319149,
+            "improvement_pct": -0.48543689320388417
+        },
+        "Specificity": {
+            "baseline": 0.8450704225352113,
+            "tuned": 0.8450704225352113,
+            "improvement_pct": 0.0
+        },
+        "Balanced Accuracy": {
+            "baseline": 0.8608330836080311,
+            "tuned": 0.8587054240335631,
+            "improvement_pct": -0.24716284898697438
+        },
+        "MCC": {
+            "baseline": 0.7152434527612281,
+            "tuned": 0.7102111473324063,
+            "improvement_pct": -0.7035793769791802
+        }
+    },
+    "imbalance_strategies": {
+        "No Resampling": {
+            "Accuracy": 0.8620689655172413,
+            "ROC-AUC": 0.9347018279892118,
+            "F1-Score": 0.8874458874458875,
+            "Precision": 0.9030837004405287,
+            "Recall": 0.8723404255319149,
+            "Specificity": 0.8450704225352113,
+            "Balanced Acc": 0.8587054240335631,
+            "MCC": 0.7102111473324063,
+            "Training Time (s)": 0.0
+        },
+        "SMOTE": {
+            "Accuracy": 0.8673740053050398,
+            "ROC-AUC": 0.9335031465388074,
+            "F1-Score": 0.888888888888889,
+            "Precision": 0.9302325581395349,
+            "Recall": 0.851063829787234,
+            "Specificity": 0.8943661971830986,
+            "Balanced Acc": 0.8727150134851663,
+            "MCC": 0.7296393518154615,
+            "Training Time (s)": 1.1932573318481445
+        },
+        "ADASYN": {
+            "Accuracy": 0.8488063660477454,
+            "ROC-AUC": 0.9304465088402757,
+            "F1-Score": 0.8701594533029613,
+            "Precision": 0.9362745098039216,
+            "Recall": 0.8127659574468085,
+            "Specificity": 0.9084507042253521,
+            "Balanced Acc": 0.8606083308360803,
+            "MCC": 0.7013030365850588,
+            "Training Time (s)": 1.1646926403045654
+        },
+        "Class Weight": {
+            "Accuracy": 0.8620689655172413,
+            "ROC-AUC": 0.9344321246628708,
+            "F1-Score": 0.8823529411764706,
+            "Precision": 0.9420289855072463,
+            "Recall": 0.8297872340425532,
+            "Specificity": 0.9154929577464789,
+            "Balanced Acc": 0.872640095894516,
+            "MCC": 0.7257516778229568,
+            "Training Time (s)": 1.0738890171051025
+        }
+    },
+    "cross_validation": {
+        "Accuracy": {
+            "train_mean": 0.8728464828577357,
+            "train_std": 0.004260373701592103,
+            "test_mean": 0.8242722932388726,
+            "test_std": 0.011263217666344118,
+            "gap": 0.04857418961886306
+        },
+        "Roc Auc": {
+            "train_mean": 0.9444404799671225,
+            "train_std": 0.0006144127486906806,
+            "test_mean": 0.8984362973900577,
+            "test_std": 0.005809571804870399,
+            "gap": 0.046004182577064845
+        },
+        "F1": {
+            "train_mean": 0.8971397266018432,
+            "train_std": 0.00359087614952031,
+            "test_mean": 0.8579656064782449,
+            "test_std": 0.008066229405629182,
+            "gap": 0.03917412012359822
+        },
+        "Precision": {
+            "train_mean": 0.9047968550799983,
+            "train_std": 0.0037016426485971614,
+            "test_mean": 0.865168982746612,
+            "test_std": 0.01578760108642949,
+            "gap": 0.03962787233338627
+        },
+        "Recall": {
+            "train_mean": 0.8896276595744681,
+            "train_std": 0.0051844650770260505,
+            "test_mean": 0.851063829787234,
+            "test_std": 0.006728250340783795,
+            "gap": 0.03856382978723405
+        },
+        "Balanced Accuracy": {
+            "train_mean": 0.867350500165314,
+            "train_std": 0.004345907283673325,
+            "test_mean": 0.815494653598787,
+            "test_std": 0.014689719164233879,
+            "gap": 0.051855846566526975
+        }
+    },
+    "mcnemar_test": {
+        "statistic": 5.0,
+        "pvalue": 1.0,
+        "significant": false,
+        "tuned_better": 5,
+        "baseline_better": 6
+    }
+}

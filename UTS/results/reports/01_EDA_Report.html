@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EDA Report - Drug Consumption</title>
+    <style>
+        body { font-family: Arial; margin: 40px; background: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 40px; }
+        h1 { color: #2c3e50; border-bottom: 3px solid #3498db; }
+        h2 { color: #34495e; margin-top: 30px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #3498db; color: white; }
+        .metric { background: #ecf0f1; padding: 15px; margin: 10px 0; border-left: 5px solid #3498db; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>EDA Report: Drug Consumption Risk Prediction</h1>
+        <p><strong>Peneliti:</strong> Muhammad Ichsan Junaedi & Amanda Wijayanti</p>
+        <p><strong>Generated:</strong> 2025-11-07 15:48:26</p>
+        
+        <h2>1. Dataset Overview</h2>
+        <div class="metric">
+            <p><strong>Total Samples:</strong> 1,885 responden</p>
+            <p><strong>Features:</strong> 58</p>
+            <p><strong>Missing Values:</strong> 0 (Clean!)</p>
+        </div>
+        
+        <h2>2. Binary Target Distribution</h2>
+        <table>
+            <tr><th>Class</th><th>Count</th><th>Percentage</th></tr>
+            <tr><td>Non-User (0)</td><td>710</td><td>37.67%</td></tr>
+            <tr><td>User (1)</td><td>1175</td><td>62.33%</td></tr>
+        </table>
+        <p><strong>Imbalance Ratio:</strong> 0.60:1 (Balanced!)</p>
+        
+        <h2>3. Significant Personality Traits</h2>
+        <table>
+            <tr><th>Trait</th><th>Cohen's d</th><th>p-value</th><th>Effect</th></tr>
+
+            <tr>
+                <td>Sensation Seeking</td>
+                <td>1.015</td>
+                <td>0.0000</td>
+                <td>***</td>
+            </tr>
+
+            <tr>
+                <td>Openness</td>
+                <td>0.822</td>
+                <td>0.0000</td>
+                <td>***</td>
+            </tr>
+
+            <tr>
+                <td>Impulsivity</td>
+                <td>0.698</td>
+                <td>0.0000</td>
+                <td>***</td>
+            </tr>
+
+            <tr>
+                <td>Conscientiousness</td>
+                <td>-0.665</td>
+                <td>0.0000</td>
+                <td>***</td>
+            </tr>
+
+            <tr>
+                <td>Agreeableness</td>
+                <td>-0.381</td>
+                <td>0.0000</td>
+                <td>***</td>
+            </tr>
+
+            <tr>
+                <td>Neuroticism</td>
+                <td>0.356</td>
+                <td>0.0000</td>
+                <td>***</td>
+            </tr>
+
+            <tr>
+                <td>Extraversion</td>
+                <td>-0.143</td>
+                <td>0.0032</td>
+                <td>**</td>
+            </tr>
+
+        </table>
+        
+        <h2>4. Key Findings</h2>
+        <div class="metric">
+            <ul>
+                <li>All 7 personality traits are significantly different between users and non-users</li>
+                <li>Sensation Seeking has LARGE effect size (d = 1.02)</li>
+                <li>Openness has LARGE effect size (d = 0.82)</li>
+                <li>Dataset is relatively balanced (62% users vs 38% non-users)</li>
+                <li>14 publication-quality visualizations generated</li>
+            </ul>
+        </div>
+        
+        <h2>5. Next Steps</h2>
+        <p>Fase 1 Complete → Proceed to Fase 2: Feature Engineering</p>
+    </div>
+</body>
+</html>

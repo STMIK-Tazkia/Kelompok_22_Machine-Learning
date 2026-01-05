@@ -1,0 +1,13 @@
+{
+    "total_samples": 377,
+    "correct_predictions": 325,
+    "incorrect_predictions": 52,
+    "true_positives": 205,
+    "true_negatives": 120,
+    "false_positives": 22,
+    "false_negatives": 30,
+    "user_error_rate": 0.1276595744680851,
+    "nonuser_error_rate": 0.15492957746478872,
+    "fp_mean_confidence": 0.6531533693919666,
+    "fn_mean_confidence": 0.3716068592915452
+}

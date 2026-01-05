@@ -1,0 +1,16 @@
+{
+    "units_layer_1": 256,
+    "l2_reg": 0.0001,
+    "batch_norm_1": false,
+    "dropout_1": 0.4,
+    "units_layer_2": 32,
+    "batch_norm_2": true,
+    "dropout_2": 0.4,
+    "units_layer_3": 64,
+    "dropout_3": 0.3,
+    "use_layer_4": true,
+    "optimizer": "rmsprop",
+    "learning_rate": 0.005,
+    "units_layer_4": 8,
+    "dropout_4": 0.2
+}

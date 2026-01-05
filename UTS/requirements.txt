@@ -1,0 +1,56 @@
+# ============================================
+# REQUIREMENTS.TXT
+# Prediksi Risiko Konsumsi Narkoba - Random Forest
+# Muhammad Ichsan Junaedi & Amanda Wijayanti
+# ============================================
+
+# Core Data Science
+numpy==1.24.3
+pandas==2.0.3
+scipy==1.11.1
+
+# Machine Learning
+scikit-learn==1.3.0
+imbalanced-learn==0.11.0        # SMOTE, ADASYN
+xgboost==1.7.6                  # Optional: untuk comparison
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.15.0                  # Interactive plots
+
+# Model Interpretability
+shap==0.42.1                    # SHAP analysis (CRITICAL!)
+
+# Statistical Testing
+statsmodels==0.14.0             # Statistical tests
+
+# Jupyter
+jupyter==1.0.0
+notebook==6.5.4
+ipywidgets==8.0.7               # Interactive widgets
+
+# Utilities
+tqdm==4.65.0                    # Progress bars
+joblib==1.3.1                   # Model saving
+openpyxl==3.1.2                 # Excel support (jika ada)
+
+# Optional: Documentation
+watermark==2.4.3                # Track library versions
+
+# ============================================
+# INSTALLATION INSTRUCTIONS:
+# 
+# 1. Create virtual environment:
+#    python -m venv venv
+#
+# 2. Activate virtual environment:
+#    - Windows: venv\Scripts\activate
+#    - Mac/Linux: source venv/bin/activate
+#
+# 3. Install requirements:
+#    pip install -r requirements.txt
+#
+# 4. Verify installation:
+#    python -c "import sklearn, shap, imblearn; print('OK')"
+# ============================================

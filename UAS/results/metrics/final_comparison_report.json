@@ -1,0 +1,32 @@
+{
+    "dnn_test_metrics": {
+        "Accuracy": 0.8381962864721485,
+        "Balanced Accuracy": 0.8407861521817526,
+        "Precision": 0.9032258064516129,
+        "Recall (Sensitivity)": 0.8305084745762712,
+        "Specificity": 0.851063829787234,
+        "F1-Score": 0.8653421633554084,
+        "ROC-AUC": 0.9088231758624834,
+        "PR-AUC": 0.9488665071993705,
+        "Cohen Kappa": 0.6635750544933219,
+        "MCC": 0.6672485430279597,
+        "Brier Score": 0.11717812678296077
+    },
+    "rf_test_metrics": {
+        "Accuracy": 0.8355437665782494,
+        "Balanced Accuracy": 0.8243929558841208,
+        "Precision": 0.8686440677966102,
+        "Recall (Sensitivity)": 0.8686440677966102,
+        "Specificity": 0.7801418439716312,
+        "F1-Score": 0.8686440677966102,
+        "ROC-AUC": 0.9094392354850344,
+        "PR-AUC": 0.947531719827994,
+        "Cohen Kappa": 0.6487859117682414,
+        "MCC": 0.6487859117682414,
+        "Brier Score": 0.11717851458885942
+    },
+    "dnn_overfitting_gap": -0.0019893899204244114,
+    "rf_overfitting_gap": 0.16445623342175064,
+    "winner": "Random Forest",
+    "difference": 0.0006160596225509574
+}

@@ -1,0 +1,2 @@
+n_estimators,min_samples_split,min_samples_leaf,max_features,max_depth,criterion,class_weight,bootstrap
+500,10,8,log2,20,gini,,True

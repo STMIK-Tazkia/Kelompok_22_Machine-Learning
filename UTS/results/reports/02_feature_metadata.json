@@ -1,0 +1,136 @@
+{
+    "dataset_info": {
+        "total_samples": 1885,
+        "train_samples": 1508,
+        "test_samples": 377,
+        "train_percentage": 80.0,
+        "test_percentage": 20.0,
+        "random_state": 42,
+        "stratified": true
+    },
+    "features": {
+        "total_features": 24,
+        "demographic_encoded": [
+            "Age_Encoded",
+            "Gender_Encoded",
+            "Education_Encoded"
+        ],
+        "country_onehot": [
+            "country_Australia",
+            "country_Canada",
+            "country_New Zealand",
+            "country_Other",
+            "country_Republic of Ireland",
+            "country_UK",
+            "country_USA"
+        ],
+        "ethnicity_onehot": [
+            "ethnicity_Asian",
+            "ethnicity_Black",
+            "ethnicity_Mixed-Black/Asian",
+            "ethnicity_Mixed-White/Asian",
+            "ethnicity_Mixed-White/Black",
+            "ethnicity_Other",
+            "ethnicity_White"
+        ],
+        "personality": [
+            "Nscore",
+            "Escore",
+            "Oscore",
+            "Ascore",
+            "Cscore"
+        ],
+        "behavioral": [
+            "Impulsive",
+            "SS"
+        ],
+        "all_features": [
+            "Age_Encoded",
+            "Gender_Encoded",
+            "Education_Encoded",
+            "country_Australia",
+            "country_Canada",
+            "country_New Zealand",
+            "country_Other",
+            "country_Republic of Ireland",
+            "country_UK",
+            "country_USA",
+            "ethnicity_Asian",
+            "ethnicity_Black",
+            "ethnicity_Mixed-Black/Asian",
+            "ethnicity_Mixed-White/Asian",
+            "ethnicity_Mixed-White/Black",
+            "ethnicity_Other",
+            "ethnicity_White",
+            "Nscore",
+            "Escore",
+            "Oscore",
+            "Ascore",
+            "Cscore",
+            "Impulsive",
+            "SS"
+        ]
+    },
+    "target": {
+        "name": "Drug_User",
+        "threshold": 0.5,
+        "definition": {
+            "class_0": "Non-Recent Use (all illegal drugs \u2264 0.5)",
+            "class_1": "Recent Use (at least 1 illegal drug > 0.5)"
+        },
+        "distribution": {
+            "original": {
+                "class_0": 710,
+                "class_1": 1175,
+                "class_0_pct": 37.6657824933687,
+                "class_1_pct": 62.3342175066313
+            },
+            "train": {
+                "class_0": 568,
+                "class_1": 940,
+                "class_0_pct": 37.6657824933687,
+                "class_1_pct": 62.3342175066313
+            },
+            "test": {
+                "class_0": 142,
+                "class_1": 235,
+                "class_0_pct": 37.6657824933687,
+                "class_1_pct": 62.3342175066313
+            }
+        }
+    },
+    "encodings": {
+        "age": {
+            "18-24": 0,
+            "25-34": 1,
+            "35-44": 2,
+            "45-54": 3,
+            "55-64": 4,
+            "65+": 5
+        },
+        "gender": {
+            "Male": 1,
+            "Female": 0
+        },
+        "education": {
+            "Left school before 16 years": 0,
+            "Left school at 16 years": 1,
+            "Left school at 17 years": 2,
+            "Left school at 18 years": 3,
+            "Some college or university": 4,
+            "Professional certificate/diploma": 5,
+            "University degree": 6,
+            "Masters degree": 7,
+            "Doctorate degree": 8
+        },
+        "drug_values": {
+            "CL0": 0.0,
+            "CL1": 0.13,
+            "CL2": 0.35,
+            "CL3": 0.71,
+            "CL4": 0.79,
+            "CL5": 0.92,
+            "CL6": 1.0
+        }
+    }
+}
