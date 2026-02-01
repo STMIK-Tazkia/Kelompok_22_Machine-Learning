@@ -16,5 +16,8 @@ Repository ini berisi arsip pengerjaan Tugas Besar mata kuliah Machine Learning,
 * **Fokus:** Deep Learning & Comparative Analysis.
 * **Metode:** Deep Neural Network (DNN) vs Random Forest.
 
+
+#### 3. Video Tugas Tambahan Machine Learning
+      https://drive.google.com/drive/folders/1CSXwOiJgbndnEBKbbHA2r5ROpoMafbAd?usp=sharing
 ---
 *Program Studi Sistem Informasi - STMIK Tazkia*
