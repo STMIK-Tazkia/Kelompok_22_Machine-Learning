@@ -9,12 +9,12 @@ Repository ini berisi arsip pengerjaan Tugas Besar mata kuliah Machine Learning,
 ### Daftar Tugas
 
 #### 1. [UTS](Mid-Term Exam)
-* **Fokus:** Eksplorasi Data & Baseline Model.
-* **Metode:** Random Forest Classifier.
+* **Fokus:** Eksplorasi Data & Baseline Model
+* **Metode:** Random Forest Classifier
 
 #### 2. [UAS](Final Exam)
-* **Fokus:** Deep Learning & Comparative Analysis.
-* **Metode:** Deep Neural Network (DNN) vs Random Forest.
+* **Fokus:** Deep Learning & Comparative Analysis
+* **Metode:** Deep Neural Network (DNN) vs Random Forest
 
 
 #### 3. Video Tugas Tambahan Machine Learning
